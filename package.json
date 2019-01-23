@@ -1,0 +1,15 @@
+{
+  "name": "innosystems",
+  "version": "1.0.0",
+  "description": "Zadanie testowe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w css/sass/ -o css/css/"
+  },
+  "author": "Piotr Hołub",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

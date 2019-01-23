@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+ }
+ input{
+   text-decoration: none;
+ }
+ 
+ h3{
+  font-weight: 900;
+  padding-top: 50px;
+  span{
+    font-weight: 100;
+  }
+ }
+
+ h6{
+  font-weight: 900;
+  padding-top: 50px;
+ }
+
+::placeholder{
+  font-size: 13px;
+}
+.button{
+  margin-top:20px;
+  .btn{
+    width: 100%;
+    p{
+      font-size: 12px;
+      padding-top:10px;
+    }
+  }
+}
+
+
+.invalid{
+  border: 2px solid red;
+}
+.valid{
+  border: 2px solid $green;
+}
+select:invalid{
+  color: gray;
+  font-size: 13px;
+}
+input.invalid {
+  border: 2px solid red; }
+input.valid {
+  border: 2px solid $green; }
+.fa {
+  position: absolute;
+  bottom: 15px;
+  left: 85%;
+  color: rgb(0, 195, 82);
+  display: none;
+}
+
+.card{
+ border: none;
+ margin-top:50px;
+ padding: 0;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 4px;
+  display: inline-block;
+  -webkit-transition: width 0.4s; /* Safari */
+  transition: width 0.4s;
+}
+
+.dots{
+    text-align: right;
+    padding-right: 0;
+    padding-top:40px;
+}
